@@ -109,9 +109,8 @@ def process_text(text):
     return text
 
 def main():
-    print("正在监听剪贴板... (按 Ctrl+C 退出)")
-    print("Listening to clipboard... (Press Ctrl+C to exit)")
-    
+    print("正在监听剪贴板")
+
     # Initialize last_content to None so we process the current clipboard immediately on startup
     last_content = None
 
