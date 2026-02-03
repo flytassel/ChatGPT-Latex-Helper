@@ -1,5 +1,7 @@
 # ChatGPT Formula Clipboard Formatter
 
+[中文版](./README.md)
+
 A real-time clipboard listener built with Python, specifically designed to fix LaTeX formula formatting issues when copying from ChatGPT. It automatically converts the common bracketed block math `[` ... `]` into standard `$$ ... $$` format, while also handling inline math and redundant empty lines.
 
 ## Key Features
